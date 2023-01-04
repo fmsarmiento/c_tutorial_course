@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+unsigned power(unsigned num, unsigned pow) {
+  unsigned out=1;
+  if(pow==0) return 1;
+  if(pow==1) return num;
+  out = num * power(num,pow-1);
+  return out;
+}

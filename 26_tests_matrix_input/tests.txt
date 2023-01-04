@@ -1,0 +1,21 @@
+input0.txt
+input1.txt
+input3.txt
+input4.txt
+input5.txt
+input6.txt
+ fasdf
+ \n sadl;fk
+ cc
+test input2.txt
+arg1 arg2
+nothing.txt
+input7.txt
+trial1.txt
+trial2.txt
+trial3.txt
+trial4.txt
+trial5.txt
+trial6.txt
+trial7.txt
+what1.txt

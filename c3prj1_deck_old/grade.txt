@@ -1,0 +1,20 @@
+Grading at Thu 28 Oct 2021 02:39:09 PM UTC
+Compiling deck.c
+Compiling cards.c
+Linking cards.o deck.o deck-c4.o and the grader's .o file
+Checking the output of all the functions other than shuffle
+Line_6_did_not_match
+Line_10_did_not_match
+Line_14_did_not_match
+Line_15_did_not_match
+Line_18_did_not_match
+Line_20_did_not_match
+Your file did not match the expected ouput
+ - Those functions seem to have problems
+Checking your shuffle results with a 6 card hand...
+  Least common hand: 0.130600%
+  Most  common hand: 0.146750%
+  Perfectly even is: 0.138888%
+ Excellent!
+
+Overall Grade: F

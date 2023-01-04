@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void rotate(char matrix[10][10]) {
+  int range = 9;
+  int i;
+  int j;
+  for(i=0;i<5;i++) {
+    for(j=i;j<9-1;j++) {
+      matrix[i][j] = matrix[range-j][i];
+      matrix[range-j][i] = matrix[range-i][range-j];
+      matrix[range-i][range-j] = matrix[j][range-i];
+    }
+  }
+}

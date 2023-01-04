@@ -1,0 +1,2 @@
+test: test-subseq.c
+	gcc -o test-subseq -Wall -Werror -pedantic -std=gnu99 test-subseq.c

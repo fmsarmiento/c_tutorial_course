@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+size_t maxSeq(int * array, size_t n) {
+    if(n==0) {
+        return 0;
+    }
+    if(n==1) {
+        return 1;
+    }
+    int maxLen = 1;
+    int currLen = 1;
+    for(int i=1;i<n;i++) {
+        if(array[i]>array[i-1]) {
+            currLen++;
+        } else {
+            currLen = 0;
+            if(maxLen < currLen) {
+                maxLen = currLen;
+            }
+        }
+    }
+}
